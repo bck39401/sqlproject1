@@ -1,6 +1,6 @@
 
 # SQL Project 1 | Group 1
-
+Members: Ben Kim, Jackson Avey, Christian Hertzig, Success Onichabor, Drew Vajda
 [Insert Scenario here]
 
 
