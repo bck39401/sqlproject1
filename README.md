@@ -10,7 +10,9 @@ Members: Ben Kim, Jackson Avey, Christian Hertzig, Success Onichabor, Drew Vajda
 ## Data Model
 [Insert Data Model and Description here]
 
+
 ## Data Dictionary
+[Data Dictionary sqlproject1.pdf](https://github.com/user-attachments/files/23107126/Data.Dictionary.sqlproject1.pdf)
 
 ## Ten Queries
 [Insert Queries and their Descriptions here]
