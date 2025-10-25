@@ -20,7 +20,8 @@ Overall, this model efficiently supports business operations such as tracking sa
 
 
 ## Data Dictionary
-[Data Dictionary sqlproject1.pdf](https://github.com/user-attachments/files/23107126/Data.Dictionary.sqlproject1.pdf)
+[Data.Dictionary.sqlproject1.pdf](https://github.com/user-attachments/files/23144820/Data.Dictionary.sqlproject1.pdf)
+
 
 ## Ten Queries
 [Insert Queries and their Descriptions here]
