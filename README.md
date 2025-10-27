@@ -44,7 +44,7 @@ It helps identify which managers oversee larger or smaller teams, allowing leade
 
 2. This query calculates the total sales revenue for each store, grouped by product category. It joins four tables — order_item, product, category, and stores — to connect each sold product to its category and store. The SUM(order_item.list_price) function adds up the total revenue generated from all sales within each store and category combination.
 
-<img width="1883" height="1003" alt="Screenshot 2025-10-26 230129" src="https://github.com/user-attachments/assets/d5344049-c607-41c3-b081-03332f0c0f45" />
+<img width="2128" height="995" alt="image" src="https://github.com/user-attachments/assets/cd53384f-46c7-4341-9f17-decc9a6069c3" />
 
 Managerial Justification:
 From a managerial perspective, this query helps decision-makers evaluate store performance by product type. It identifies which categories generate the most revenue in each location, allowing managers to adjust inventory levels, marketing efforts, and shelf space allocation to maximize profitability and meet local customer demand.
