@@ -33,23 +33,28 @@ Overall, this model efficiently supports business operations such as tracking sa
 <img width="3290" height="1647" alt="image" src="https://github.com/user-attachments/assets/86f5306e-e061-4e25-a957-fc2a450143f4" />
 
 1. Query 1 finds the total number of employees working under each manager.
+This query uses a self-join on the employee table to determine how many employees report to each manager.
+By comparing manager_id in the employee records with employee_id in the manager records, it counts the total number of direct reports per manager. The GROUP BY clause groups results by manager, and COUNT() provides the number of employees under each.
    
 <img width="2352" height="758" alt="Screenshot 2025-10-26 225717" src="https://github.com/user-attachments/assets/c06da333-516c-4c13-822f-8e8b1e7c4807" />
 
-Explanation. Explanation. 
+Managerial Justification:
+A manager or HR leader would use this query to analyze organizational structure and span of control.
+It helps identify which managers oversee larger or smaller teams, allowing leadership to evaluate workload distribution, managerial effectiveness, and opportunities to balance responsibilities across departments.
 
-2. EXPLANATION PART 1 
+2. This query calculates the total sales revenue for each store, grouped by product category. It joins four tables — order_item, product, category, and stores — to connect each sold product to its category and store. The SUM(order_item.list_price) function adds up the total revenue generated from all sales within each store and category combination.
 
 <img width="1883" height="1003" alt="Screenshot 2025-10-26 230129" src="https://github.com/user-attachments/assets/d5344049-c607-41c3-b081-03332f0c0f45" />
 
-EXPLANATION 2 Part 
+Managerial Justification:
+From a managerial perspective, this query helps decision-makers evaluate store performance by product type. It identifies which categories generate the most revenue in each location, allowing managers to adjust inventory levels, marketing efforts, and shelf space allocation to maximize profitability and meet local customer demand.
 
-3. Explanation Part 1
+3.  This query uses a correlated subquery to determine which customers have purchased items from more than three distinct product categories. The inner subquery counts the number of unique category_id values per customer by joining the orders, order_item, and product tables. The outer query filters for customers where that count is greater than three.
 
 <img width="1216" height="996" alt="Screenshot 2025-10-26 230548" src="https://github.com/user-attachments/assets/4046a3e5-104c-4867-b14c-cd20baed0073" />
 
-
-Explanation 2 Part. 
+Managerial Justification:
+ From a managerial perspective, this query highlights diverse or high-value customers who purchase across multiple product categories. These customers represent strong cross-selling opportunities, brand loyalty, and potential candidates for premium promotions or targeted marketing campaigns. Understanding which customers buy from various categories can help refine marketing strategies and loyalty programs.
 
 4. Explanation Part 1
 
