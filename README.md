@@ -57,18 +57,38 @@ Managerial Justification:
  From a managerial perspective, this query highlights diverse or high-value customers who purchase across multiple product categories. These customers represent strong cross-selling opportunities, brand loyalty, and potential candidates for premium promotions or targeted marketing campaigns. Understanding which customers buy from various categories can help refine marketing strategies and loyalty programs.
 
 4. Explanation Part 1
+<img width="1488" height="1005" alt="Screenshot 2025-10-26 230753" src="https://github.com/user-attachments/assets/291371ad-7036-4678-9ce3-dfd05d7ca54f" />
+
 
 5. Explanation Part 1
 
+<img width="2370" height="997" alt="Screenshot 2025-10-26 231014" src="https://github.com/user-attachments/assets/9e586a29-4bd9-4bda-bc52-0e24a7121b10" />
+
+
 6. Explnation Part 1
+
+<img width="1822" height="1008" alt="Screenshot 2025-10-26 231300" src="https://github.com/user-attachments/assets/e9fea775-fe4b-4f50-b283-f4111aadfb7b" />
+
 
 7. Explanation Part 1
 
+<img width="1888" height="1012" alt="Screenshot 2025-10-26 231403" src="https://github.com/user-attachments/assets/0e746675-6157-4989-b942-6de6c42173ae" />
+
+
 8. Explanation Part 1
+
+<img width="2839" height="992" alt="Screenshot 2025-10-26 231539" src="https://github.com/user-attachments/assets/c0b686c2-4beb-4530-a98d-fd6076f54529" />
+
 
 9. Explanation Part 1
 
-10. Explanation Part 1 
+<img width="1672" height="983" alt="Screenshot 2025-10-26 231654" src="https://github.com/user-attachments/assets/1a2e1f42-2dea-4f7d-ad1e-324bc8222a73" />
+
+
+10. Explanation Part 1
+
+<img width="2775" height="1002" alt="Screenshot 2025-10-26 231818" src="https://github.com/user-attachments/assets/e7e75f50-66c4-4ef9-ae9f-6e68354c9398" />
+
 
 
 
