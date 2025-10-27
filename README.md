@@ -30,7 +30,8 @@ Overall, this model efficiently supports business operations such as tracking sa
 
 
 ## Ten Queries
-[Insert Queries, Screenshots, and their Descriptions here]
+<img width="3290" height="1647" alt="image" src="https://github.com/user-attachments/assets/86f5306e-e061-4e25-a957-fc2a450143f4" />
+
 
 ## Database Information
 [Insert Database Info Table here]
