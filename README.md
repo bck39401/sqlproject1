@@ -56,36 +56,44 @@ Managerial Justification:
  From a managerial perspective, this query highlights diverse or high-value customers who purchase across multiple product categories. These customers represent strong cross-selling opportunities, brand loyalty, and potential candidates for premium promotions or targeted marketing campaigns. Understanding which customers buy from various categories can help refine marketing strategies and loyalty programs.
 
 4.  This query identifies all products that have never been sold but are still in stock at one or more stores. It joins the product, stock, and stores tables to find which stores carry each product, and then uses a subquery to exclude any product that appears in the order_item table (indicating it has been sold before).
+
 <img width="1488" height="1005" alt="Screenshot 2025-10-26 230753" src="https://github.com/user-attachments/assets/291371ad-7036-4678-9ce3-dfd05d7ca54f" />
+
 Managerial Justification:
 Managers can use this query to uncover slow-moving or non-selling inventory. Knowing which products are stocked but haven’t sold helps in making strategic decisions about product discontinuation, promotional pricing, or redistribution of unsold inventory. This insight supports better inventory management and reduces holding costs across stores.
 
 5.  This query calculates how frequently each customer places orders by measuring the average number of days between their orders. It uses a self-join on the orders table to compare each order date with subsequent ones for the same customer. The DATEDIFF() function determines the number of days between orders, and AVG() computes each customer’s mean interval. The query then sorts by that average and displays the top 10 customers who order most often.
+
 <img width="2370" height="997" alt="Screenshot 2025-10-26 231014" src="https://github.com/user-attachments/assets/9e586a29-4bd9-4bda-bc52-0e24a7121b10" />
+
 Managerial Justification:
  Managers can use this query to identify high-frequency customers — those who purchase most regularly. These customers are valuable for loyalty programs and repeat-purchase promotions. Recognizing buying frequency helps businesses understand purchasing patterns, forecast demand, and tailor marketing strategies to sustain engagement and maximize customer lifetime value.
 
 6.  This query lists employees who do not manage anyone but work at stores that have generated more than $10,000 in total sales. It first filters out employees who are listed as managers using a subquery on the employee table. The second subquery calculates store-level sales totals by joining order_item and product, grouping results by store, and using a HAVING clause to include only stores whose total sales exceed $10,000.
 
 <img width="1822" height="1008" alt="Screenshot 2025-10-26 231300" src="https://github.com/user-attachments/assets/e9fea775-fe4b-4f50-b283-f4111aadfb7b" />
+
 Managerial Justification:
  Managers can use this query to recognize individual contributors at top-performing locations who may be driving strong sales results without holding leadership roles. Identifying such employees can inform performance evaluations, bonus allocations, or potential promotions. It also helps leadership understand how sales contributions are distributed across management levels.
 
 7. This query identifies which stores carry the largest number of unique products from the brands Trek and Electra. It joins the stores, stock, product, and brand tables to connect each product to its brand and store. The COUNT(DISTINCT product.product_id) function ensures that only unique products are counted. The results are grouped by store and brand, then ordered by the total number of products in descending order to highlight the top carriers.
 
 <img width="1888" height="1012" alt="Screenshot 2025-10-26 231403" src="https://github.com/user-attachments/assets/0e746675-6157-4989-b942-6de6c42173ae" />
+
 Managerial Justification:
  From a managerial standpoint, this query helps identify key retail locations that offer the widest selection of high-value brands like Trek and Electra. Managers can use this insight to evaluate brand distribution, assess inventory balance, and inform marketing or supply chain decisions. Knowing which stores carry the most of these premium brands can guide promotional focus, stocking strategies, and partnership discussions with brand suppliers.
 
 8.  This query determines the top-selling product in each category by total revenue across all stores. It joins the category, product, and order_item tables to calculate revenue using SUM(quantity * list_price). The query uses a window function (ROW_NUMBER()) to rank products within each category by revenue. Only products with a rank of 1 (the highest revenue) are returned.
 
 <img width="2839" height="992" alt="Screenshot 2025-10-26 231539" src="https://github.com/user-attachments/assets/c0b686c2-4beb-4530-a98d-fd6076f54529" />
+
 Managerial Justification:
  From a managerial perspective, this query reveals which products are the best performers within each category, helping identify revenue leaders and key products driving category success. Managers can use these insights for strategic pricing, promotion, and inventory allocation. It also aids in understanding customer preferences and refining category-level marketing strategies to focus on high-performing items.
 
 9.  This query identifies all products whose stock levels have dropped below 10 units in any store. It joins the stock, product, brand, and stores tables to display store information alongside the associated product and brand details. The WHERE clause filters the results to show only low-inventory items.
 
 <img width="1672" height="983" alt="Screenshot 2025-10-26 231654" src="https://github.com/user-attachments/assets/1a2e1f42-2dea-4f7d-ad1e-324bc8222a73" />
+
 Managerial Justification:
  From a managerial standpoint, this query supports inventory management and replenishment planning. It helps store managers and supply chain teams quickly identify which products need restocking before they run out, reducing the risk of lost sales. By including brand information, managers can also assess which suppliers may require faster reorder cycles or adjustments to their delivery schedules.
 
