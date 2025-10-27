@@ -36,7 +36,7 @@ Overall, this model efficiently supports business operations such as tracking sa
 This query uses a self-join on the employee table to determine how many employees report to each manager.
 By comparing manager_id in the employee records with employee_id in the manager records, it counts the total number of direct reports per manager. The GROUP BY clause groups results by manager, and COUNT() provides the number of employees under each.
    
-<img width="2352" height="758" alt="Screenshot 2025-10-26 225717" src="https://github.com/user-attachments/assets/c06da333-516c-4c13-822f-8e8b1e7c4807" />
+<img width="2400" height="995" alt="Screenshot 2025-10-26 232734" src="https://github.com/user-attachments/assets/5a94d585-b925-4390-a013-d48506fa8ea0" />
 
 Managerial Justification:
 A manager or HR leader would use this query to analyze organizational structure and span of control.
