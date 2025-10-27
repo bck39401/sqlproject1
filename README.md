@@ -30,7 +30,6 @@ Overall, this model efficiently supports business operations such as tracking sa
 
 
 ## Ten Queries
-<img width="3290" height="1647" alt="image" src="https://github.com/user-attachments/assets/86f5306e-e061-4e25-a957-fc2a450143f4" />
 
 1. Query 1 finds the total number of employees working under each manager.
 This query uses a self-join on the employee table to determine how many employees report to each manager.
@@ -102,5 +101,6 @@ Managerial Justification:
 
 
 ## Database Information
-[Insert Database Info Table here]
+<img width="3290" height="1647" alt="image" src="https://github.com/user-attachments/assets/b24647dc-4a06-402c-92ca-ce863cf5a836" />
+
 The Name of the Database is: cs_bck81809
