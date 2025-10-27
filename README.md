@@ -32,6 +32,12 @@ Overall, this model efficiently supports business operations such as tracking sa
 ## Ten Queries
 <img width="3290" height="1647" alt="image" src="https://github.com/user-attachments/assets/86f5306e-e061-4e25-a957-fc2a450143f4" />
 
+1. Query 1 finds the total number of employees working under each manager.
+<img width="2352" height="758" alt="Screenshot 2025-10-26 225717" src="https://github.com/user-attachments/assets/c06da333-516c-4c13-822f-8e8b1e7c4807" />
+
+
+
+
 
 ## Database Information
 [Insert Database Info Table here]
