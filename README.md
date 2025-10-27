@@ -33,7 +33,38 @@ Overall, this model efficiently supports business operations such as tracking sa
 <img width="3290" height="1647" alt="image" src="https://github.com/user-attachments/assets/86f5306e-e061-4e25-a957-fc2a450143f4" />
 
 1. Query 1 finds the total number of employees working under each manager.
+   
 <img width="2352" height="758" alt="Screenshot 2025-10-26 225717" src="https://github.com/user-attachments/assets/c06da333-516c-4c13-822f-8e8b1e7c4807" />
+
+Explanation. Explanation. 
+
+2. EXPLANATION PART 1 
+
+<img width="1883" height="1003" alt="Screenshot 2025-10-26 230129" src="https://github.com/user-attachments/assets/d5344049-c607-41c3-b081-03332f0c0f45" />
+
+EXPLANATION 2 Part 
+
+3. Explanation Part 1
+
+<img width="1216" height="996" alt="Screenshot 2025-10-26 230548" src="https://github.com/user-attachments/assets/4046a3e5-104c-4867-b14c-cd20baed0073" />
+
+
+Explanation 2 Part. 
+
+4. Explanation Part 1
+
+5. Explanation Part 1
+
+6. Explnation Part 1
+
+7. Explanation Part 1
+
+8. Explanation Part 1
+
+9. Explanation Part 1
+
+10. Explanation Part 1 
+
 
 
 
